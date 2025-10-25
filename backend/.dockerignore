@@ -1,0 +1,35 @@
+# Python build artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editor/project files
+*.swp
+*.swo
+*.sublime*
+*.vscode/
+.idea/
+*.DS_Store
+
+# Git & metadata
+.git/
+.gitignore
+.gitattributes
+
+# Bytecode cache
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# Docker
+Dockerfile

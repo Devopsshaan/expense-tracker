@@ -1,0 +1,54 @@
+# Node + Vite
+node_modules/
+dist/
+.vite/
+.vite-cache/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+bun.lockb
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime*
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Env/Secrets
+.env
+.env.*  # catch .env.local, .env.production etc.
+
+# OS/Filesystem
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build metadata or temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.old
+
+# Test-related (optional)
+coverage/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__snapshots__/
+
+# Docker
+Dockerfile~
+docker-compose.override.yml
+
+# Linter
+eslint.config.js
+.eslintrc.js
+.eslintignore
